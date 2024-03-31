@@ -9,3 +9,6 @@ def shop_trip() -> None:
     for customer in config["customers"]:
         Customers(customer).customer_money()
         Customers(customer).cheap_trip(config["shops"], config["FUEL_PRICE"])
+
+
+shop_trip()

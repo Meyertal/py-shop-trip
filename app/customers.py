@@ -37,8 +37,8 @@ class Customers:
                   f"money to make a purchase in any shop")
         else:
             print(f"{self.name} rides to {cheap_name_shop.name}\n")
-            print(f"Date: "
-                  f"{datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")}")
+            print(f"Date: {datetime.datetime.now()
+                  .strftime("%d/%m/%Y %H:%M:%S")}")
             print(f"Thanks, {self.name}, for your purchase!")
             print("You have bought:")
             total_cost = 0
