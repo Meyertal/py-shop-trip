@@ -20,7 +20,7 @@ class Customers:
 
     def return_info(self) -> None:
         print(f"{self.name} rides to {self.cheap_shop.name}\n")
-        print(f"Date: {datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")}")
+        print(f"Date: {datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
         print(f"Thanks, {self.name}, for your purchase!")
         print("You have bought:")
         total_cost = 0
